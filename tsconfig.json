@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+
+    "esModuleInterop": true,
+
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  }
+}
